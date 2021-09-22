@@ -1,0 +1,13 @@
+{
+  "name": "visible-on-all-workspaces",
+  "main": "./lib/visible-on-all-workspaces",
+  "version": "0.0.0",
+  "description": "Sets the Inkdrop window visible on all workspaces",
+  "keywords": [],
+  "repository": "https://github.com/inkdropapp/inkdrop-visible-on-all-workspaces",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": "^5.3.1"
+  },
+  "dependencies": {}
+}
