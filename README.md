@@ -8,4 +8,3 @@ Set the [Inkdrop](https://www.inkdrop.app/) window visible on all workspaces.
 ```sh
 ipm install visible-on-all-workspaces
 ```
-

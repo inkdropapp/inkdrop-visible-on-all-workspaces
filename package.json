@@ -1,13 +1,28 @@
 {
   "name": "visible-on-all-workspaces",
-  "main": "./lib/visible-on-all-workspaces",
   "version": "1.0.0",
   "description": "Sets the Inkdrop window visible on all workspaces",
   "keywords": [],
-  "repository": "https://github.com/inkdropapp/inkdrop-visible-on-all-workspaces",
   "license": "MIT",
-  "engines": {
-    "inkdrop": "^5.3.1"
+  "repository": "https://github.com/inkdropapp/inkdrop-visible-on-all-workspaces",
+  "main": "./lib/index",
+  "scripts": {
+    "dev": "tsdown --watch",
+    "build": "tsdown",
+    "format": "oxfmt",
+    "lint": "oxlint",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@inkdropapp/types": "^0.0.9",
+    "oxfmt": "^0.58.0",
+    "oxlint": "^1.73.0",
+    "tsdown": "^0.22.3",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "inkdrop": "^6.0.0"
+  }
 }
