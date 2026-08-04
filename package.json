@@ -1,6 +1,6 @@
 {
   "name": "visible-on-all-workspaces",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Sets the Inkdrop window visible on all workspaces",
   "keywords": [],
   "license": "MIT",
